@@ -17,6 +17,7 @@ module.exports = {
         rules: [
             {
                 test: /\.svg$/,
+                // hmr work fine when set to asset/inline
                 type: "asset/resource",
             },
         ],
